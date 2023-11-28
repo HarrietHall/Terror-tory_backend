@@ -1,0 +1,25 @@
+{
+  "name": "terror-tory_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node listen.js",
+    "seed-prod": "NODE_ENV=production npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarrietHall/Terror-tory_backend.git"
+  },
+  "author": "Harriet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarrietHall/Terror-tory_backend/issues"
+  },
+  "homepage": "https://github.com/HarrietHall/Terror-tory_backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3"
+  }
+}
